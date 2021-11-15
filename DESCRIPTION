@@ -1,11 +1,10 @@
 Package: PopGenAnalysis
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Population Genomics analysis
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: person("Jeffrey", "Chen", email="jheff.chen@mail.utoronto.ca", role = c("aut", "cre"))
+Maintainer: Jeffrey Chen <jheff.chen@mail.utoronto.ca>
+Description: Simple functions for population genomic analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -13,6 +12,6 @@ RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 3.1.0)
 Imports: 
-    mclust
+    mclust, ggbiplot
 Suggests: 
     dplyr
