@@ -12,6 +12,10 @@ RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 3.1.0)
 Imports: 
-    mclust, ggbiplot
+    mclust, ggbiplot, adegenet, lattice, dplyr, pegas
 Suggests: 
-    dplyr
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr

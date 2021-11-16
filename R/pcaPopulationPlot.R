@@ -8,7 +8,7 @@
 #' @return Returns a PCA plot of different species relatedness
 #'
 #'
-#' @example
+#' @examples
 #' pcaPopulationPlot(mtcars)
 #'
 #' @references

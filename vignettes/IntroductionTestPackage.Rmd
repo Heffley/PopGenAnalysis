@@ -1,0 +1,53 @@
+---
+title: "PopGenAnalysis"
+author: "Jeffrey Chen"
+date: "`r format(Sys.time(), '%d %b %Y')`"
+output: 
+  rmarkdown::html_vignette:
+    toc: true
+    number_sections: false
+vignette: >
+  %\VignetteIndexEntry{PopGenAnalysis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Introduction
+
+`PopGenAnalysis` is an R package for is to view various different plots for different types of population genomic data such as PCA plots for data sets of populations with different numerical attributes for HWE plots, etc.
+
+To download **PopGenAnalysis**:
+
+``` r
+require("devtools")
+devtools::install_github("Heffley/PopGenAnalysis"，build_vignettes = TRUE)
+library(PopGenAnalysis)
+```
+
+To list all functions available in this package:
+
+```r
+ls("package:PopGenAnalysis")
+```
+
+<br>
+
+## Components
+There are X functions in the package:
+
+The __*pcaPopulationPlot*__ allows users to input the chromosome name and gene range as arguments, then returns the summary for all transcripts within the input range, with information of gene name, transcript 
+
+The __*hwHeatPlot*__ function generates the plot heatmap showing significant departures from HWE where the pink values are where p are less than or equal to alpha.
+
+<br>
+
+```{r setup}
+library(PopGenAnalysis)
+```

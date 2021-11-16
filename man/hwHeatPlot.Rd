@@ -17,5 +17,13 @@ hwHeatPlot(dataSet, nPermutations = 100, alpha = 0.05)
 Returns Heatmap plot of all loci suspected of not being in HWE with p
 }
 \description{
-Hardy Weinberg Heatplot
+This function will display a heatmap showing significant departures from HWE
+where the pink values are where p are less than or equal to alpha.
+}
+\examples{
+\dontrun{
+hwHeatPlot(nancycats, 100, 0.05)
+}
+
+
 }
