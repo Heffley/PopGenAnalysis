@@ -1,6 +1,6 @@
-#' Provesti Dist Dendogram
+#' Provesti Distance Dendogram
 #'
-#' This function will display a dendogram of random n indiviuals/populations
+#' This function will display a dendogram of random n individuals/populations
 #' to visualize  a genetic distance with a given data set.
 #'
 #'
@@ -26,9 +26,13 @@ provestiDistDendo <- function(dataSet, rand_n = 10) {
   (datadist    <- provesti.dist(data_of_rand))
 
   tree <- datadist %>%
-  nj() %>%    # calculate neighbor-joining tree
-  ladderize() # organize branches by clade
+  #calculate neighbor joining
+  nj() %>%
+
+  #organize branches
+  ladderize()
   plotted_tree <- plot(tree)
+
   return(plotted_tree)
 }
 

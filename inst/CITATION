@@ -1,0 +1,14 @@
+citHeader("To cite PopGenAnalysis in publications use:")
+
+citEntry(
+  entry    = "Unpublished",
+  title    = "Different Plots for Genomic Data",
+  note     = "Unpublished",
+  author   = "J. Chen",
+  year     = "2021",
+  url      = "https://github.com/Heffley/PopGenAnalysis",
+
+  textVersion = paste("Chen, J. (2021) PopGenAnalysis (Different Plots for Population Genomic Data): an R package for plotting Population Genomic Data. URL https://github.com/Heffley/PopGenAnalysis")
+)
+
+)

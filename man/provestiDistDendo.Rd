@@ -2,7 +2,7 @@
 % Please edit documentation in R/provestiDistDendo.R
 \name{provestiDistDendo}
 \alias{provestiDistDendo}
-\title{Provesti Dist Dendogram}
+\title{Provesti Distance Dendogram}
 \usage{
 provestiDistDendo(dataSet, rand_n = 10)
 }
@@ -15,7 +15,7 @@ provestiDistDendo(dataSet, rand_n = 10)
 Returns Heatmap plot of all loci suspected of not being in HWE with p
 }
 \description{
-This function will display a dendogram of random n indiviuals/populations
+This function will display a dendogram of random n individuals/populations
 to visualize  a genetic distance with a given data set.
 }
 \examples{

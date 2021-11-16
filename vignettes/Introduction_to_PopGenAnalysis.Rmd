@@ -40,11 +40,14 @@ ls("package:PopGenAnalysis")
 <br>
 
 ## Components
-There are X functions in the package:
+There are 3 functions in the package:
 
 The __*pcaPopulationPlot*__ allows users to input the chromosome name and gene range as arguments, then returns the summary for all transcripts within the input range, with information of gene name, transcript 
 
 The __*hwHeatPlot*__ function generates the plot heatmap showing significant departures from HWE where the pink values are where p are less than or equal to alpha.
+
+The __*provestiDistDendo*__ will display a dendogram of random n individuals/populations #' to visualize  a genetic distance with a given data set.
+
 
 <br>
 
