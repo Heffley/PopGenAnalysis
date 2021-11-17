@@ -33,7 +33,6 @@ provestiDistDendo <- function(dataSet, rand_n = 10) {
   ladderize()
   plotted_tree <- plot(tree)
 
-  return(plotted_tree)
 }
 
 # [END]

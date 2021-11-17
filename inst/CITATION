@@ -11,4 +11,4 @@ citEntry(
   textVersion = paste("Chen, J. (2021) PopGenAnalysis (Different Plots for Population Genomic Data): an R package for plotting Population Genomic Data. URL https://github.com/Heffley/PopGenAnalysis")
 )
 
-)
+

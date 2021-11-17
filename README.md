@@ -1,12 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# PopGenAnalysis
+## PopGenAnalysis
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of PopGenAnalysis is to view various different plots for
+## Description
+
+`PopGenAnalysis` is an R package is to view various different plots for
 different types of population genomic data. Currently there aren’t many
 packages that display different plots for different types of population
 genomic data. This package will help in doing so.
@@ -17,8 +19,9 @@ You can install the development version of PopGenAnalysis from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
+install.packages("devtools")
 devtools::install_github("Heffley/PopGenAnalysis")
+library("PopGenAnalysis")
 ```
 
 ## Overview
@@ -27,7 +30,8 @@ devtools::install_github("Heffley/PopGenAnalysis")
 ls("package:PopGenAnalysis")
 ```
 
-PopGenAnalysis contains XX to analyze simple population genomics data
+PopGenAnalysis contains 3 different functions that plot population
+genomics data
 
 The *pcaPopulationPlot* function takes a data set of NUMERIC attributes
 and creates a plot to see how related the species are
@@ -44,6 +48,16 @@ data set.
 browseVignettes("PopGenAnalysis")
 ```
 
+## Citation for Package
+
+``` r
+citation("PopGenAnalysis")
+```
+
+Chen, J. (2021) PopGenAnalysis (Different Plots for Population Genomic
+Data): an R package for plotting Population Genomic Data. URL
+<https://github.com/Heffley/PopGenAnalysis>
+
 ## Contributions
 
 The author of the package is Jeffrey Chen.
@@ -55,3 +69,5 @@ to generate PCA plots.
 
 This package was developed as part of an assessment for 2021BCB410H:
 Applied Bioinformatics, University of Toronto, Toronto,CANADA.
+
+## References
