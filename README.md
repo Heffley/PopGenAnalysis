@@ -1,6 +1,4 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 ## PopGenAnalysis
 
 <!-- badges: start -->
@@ -44,9 +42,7 @@ The *provestiDistDendo* function will display a dendogram of random n
 individuals/populations to visualize a genetic distance with a given
 data set.
 
-``` r
-browseVignettes("PopGenAnalysis")
-```
+browseVignettes(“PopGenAnalysis”)
 
 ## Citation for Package
 
@@ -62,12 +58,41 @@ Data): an R package for plotting Population Genomic Data. URL
 
 The author of the package is Jeffrey Chen.
 
-The *pcaPopulationPlot* uses ggbiplot function from `ggbiplot` R package
-to generate PCA plots.
-
 ## Contributions
 
 This package was developed as part of an assessment for 2021BCB410H:
 Applied Bioinformatics, University of Toronto, Toronto,CANADA.
 
 ## References
+
+Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021).
+dplyr: A Grammar of Data Manipulation. R package version 1.0.7.
+<https://CRAN.R-project.org/package=dplyr>
+
+Jombart, T. (2008) adegenet: a R package for the multivariate analysis
+of genetic markers. Bioinformatics 24: 1403-1405. doi:
+10.1093/bioinformatics/btn129
+
+Jombart T. and Ahmed I. (2011) adegenet 1.3-1: new tools for the
+analysis of genome-wide SNP data. Bioinformatics. doi:
+10.1093/bioinformatics/btr521
+
+Kamvar ZN, Tabima JF, Grünwald NJ. (2014) Poppr: an R package for
+genetic analysis of populations with clonal, partially clonal, and/or
+sexual reproduction. PeerJ 2:e281. doi: 10.7717/peerj.281
+
+Kamvar ZN, Brooks JC and Grünwald NJ (2015) Novel R tools for analysis
+of genome-wide population genetic data with emphasis on clonality.
+Front. Genet. 6:208. doi: 10.3389/fgene.2015.00208
+
+Paradis E. & Schliep K. 2019. ape 5.0: an environment for modern
+phylogenetics and evolutionary analyses in R. Bioinformatics 35: 526-528
+
+Paradis E. 2010. pegas: an R package for population genetics with an
+integrated-modular approach. Bioinformatics 26: 419-420.
+
+Sarkar, Deepayan (2008) Lattice: Multivariate Data Visualization with R.
+Springer, New York. ISBN 978-0-387-75968-5
+
+Vincent Q. Vu (2011). ggbiplot: A ggplot2 based biplot. R package
+version 0.55. <http://github.com/vqv/ggbiplot>

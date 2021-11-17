@@ -1,5 +1,5 @@
 ---
-title: "PopGenAnalysis"
+title: "Introduction_to_PopGenAnalysis"
 author: "Jeffrey Chen"
 date: "`r format(Sys.time(), '%d %b %Y')`"
 output: 
@@ -21,7 +21,9 @@ knitr::opts_chunk$set(
 
 ## Introduction
 
-`PopGenAnalysis` is an R package for is to view various different plots for different types of population genomic data such as PCA plots for data sets of populations with different numerical attributes for HWE plots, etc.
+`PopGenAnalysis` is an R package to view various different plots for different types of population genomic data such as PCA plots for data sets of populations with different numerical attributes, HWE plots, etc.
+
+see `help(package = "PopGenAnalysis")` for more information and references provided by `citation("PopGenAnalysis")`
 
 To download **PopGenAnalysis** , use the following commands:
 

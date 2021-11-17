@@ -11,14 +11,13 @@ provestiDistDendo(dataSet, rand_n = 10)
 
 \item{rand_n}{number of individuals/population that use wants to see}
 }
-\value{
-Returns Heatmap plot of all loci suspected of not being in HWE with p
-}
 \description{
 This function will display a dendogram of random n individuals/populations
 to visualize  a genetic distance with a given data set.
 }
 \examples{
+\dontrun{
 provestiDistDendo(nancycats, 10)
+}
 
 }

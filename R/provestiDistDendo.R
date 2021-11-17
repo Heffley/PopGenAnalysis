@@ -8,10 +8,10 @@
 #' @param rand_n number of individuals/population that use wants to see
 #'
 #'
-#' @return Returns Heatmap plot of all loci suspected of not being in HWE with p
 #'
-#' @examples
+#' @examples \dontrun{
 #' provestiDistDendo(nancycats, 10)
+#' }
 #'
 #' @export
 #' @import poppr ape
