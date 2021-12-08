@@ -6,10 +6,13 @@
 
 ## Description
 
-`PopGenAnalysis` is an R package is to view various different plots for
-different types of population genomic data. Currently there aren’t many
-packages that display different plots for different types of population
-genomic data. This package will help in doing so.
+`PopGenAnalysis` is an R package is to plot various different plots for
+different types of population genomic data and interpret the plots. Some
+of these plots include PCA plots, dendograms, and heatplots. Currently
+there aren’t many packages that display different plots for different
+types of population genomic data. This package will help in doing so.
+This package was developed using `R version 4.1.1 (2021-08-10)`,
+`x86_64-w64-mingw32/x64 (64-bit)`
 
 ## Installation
 
@@ -56,12 +59,10 @@ Data): an R package for plotting Population Genomic Data. URL
 
 ## Contributions
 
-The author of the package is Jeffrey Chen.
-
-## Contributions
-
-This package was developed as part of an assessment for 2021BCB410H:
-Applied Bioinformatics, University of Toronto, Toronto,CANADA.
+The author of the package is Jeffrey Chen. The *hwHeatPlot* function
+uses functions from *lattice* *pegas* *adegenet* and *dplyr*. The
+*pcaPopulationPlot* uses functions from *ggbiplot*. The
+*provestiDistDendo* uses functions from *poppr* and *ape*.
 
 ## References
 
@@ -96,3 +97,11 @@ Springer, New York. ISBN 978-0-387-75968-5
 
 Vincent Q. Vu (2011). ggbiplot: A ggplot2 based biplot. R package
 version 0.55. <http://github.com/vqv/ggbiplot>
+
+## Acknowledgements
+
+This package was developed for BCB410H: Applied Bioinformatics,
+University of Toronto, Toronto, CANADA, 2021-2022. `PopGenAnalysis`
+welcomes issues, enhancement requests, and other contributions. To
+submit an issue, use the [GitHub
+issues](https://github.com/Heffley/PopGenAnalysis/issues).

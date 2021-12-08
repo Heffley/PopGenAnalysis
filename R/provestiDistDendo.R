@@ -5,7 +5,7 @@
 #'
 #'
 #' @param dataSet The set of attributes
-#' @param rand_n number of individuals/population that use wants to see
+#' @param randN number of individuals/population that use wants to see
 #'
 #'
 #'
@@ -16,22 +16,22 @@
 #' @export
 #' @import poppr ape
 
-provestiDistDendo <- function(dataSet, rand_n = 10) {
+provestiDistDendo <- function(dataSet, randN = 10) {
 
   #takes rand_n individuals/population from the data set
-  rand_num <- sample(nInd(dataSet), rand_n)
-  data_of_rand <- dataSet[rand_num]
+  randNum <- sample(nInd(dataSet), randN)
+  dataOfRand <- dataSet[randNum]
 
   #take the provesti dist of individuals/population from the data set
-  (datadist    <- provesti.dist(data_of_rand))
+  (dataDist    <- provesti.dist(dataOfRand))
 
-  tree <- datadist %>%
+  tree <- dataDist %>%
   #calculate neighbor joining
   nj() %>%
 
   #organize branches
   ladderize()
-  plotted_tree <- plot(tree)
+  plottedTree <- plot(tree)
 
 }
 

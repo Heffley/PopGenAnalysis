@@ -4,12 +4,12 @@
 \alias{provestiDistDendo}
 \title{Provesti Distance Dendogram}
 \usage{
-provestiDistDendo(dataSet, rand_n = 10)
+provestiDistDendo(dataSet, randN = 10)
 }
 \arguments{
 \item{dataSet}{The set of attributes}
 
-\item{rand_n}{number of individuals/population that use wants to see}
+\item{randN}{number of individuals/population that use wants to see}
 }
 \description{
 This function will display a dendogram of random n individuals/populations

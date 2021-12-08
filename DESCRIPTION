@@ -4,7 +4,9 @@ Title: Population Genomics analysis
 Version: 0.1.0
 Authors@R: person("Jeffrey", "Chen", email="jheff.chen@mail.utoronto.ca", role = c("aut", "cre"))
 Maintainer: Jeffrey Chen <jheff.chen@mail.utoronto.ca>
-Description: Multiple different functions for plotting different genomic data
+Description: is an R package is to plot various different plots for different
+  types of population genomic data and interpret the plots. Some of these plots 
+  include PCA plots, dendograms, and heatplots.  
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -12,7 +14,8 @@ RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 3.1.0)
 Imports: 
-    mclust, ggbiplot, adegenet, lattice, dplyr, pegas, ape, poppr
+    mclust, ggbiplot, adegenet, lattice, dplyr, pegas, ape, poppr, stats
+Remotes: github::vqv/ggplot2
 Suggests: 
     testthat (>= 3.0.0),
     knitr,
