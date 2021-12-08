@@ -14,6 +14,7 @@
 #'
 #'
 #' @export
+#' @rawNamespace import(dplyr, except = filter)
 #' @import lattice pegas adegenet dplyr
 
 hwHeatPlot <- function(dataSet, nPermutations = 100, alpha = 0.05) {

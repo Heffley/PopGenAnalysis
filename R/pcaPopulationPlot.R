@@ -11,11 +11,11 @@
 #' @examples
 #' pcaPopulationPlot(mtcars)
 #'
-#' @references
+#'
 #'
 #' @export
-#'
-#' @import ggbiplot
+#' @rawNamespace import(stats, except = filter)
+#' @import ggbiplot stats
 
 pcaPopulationPlot <- function(attributeSet) {
 

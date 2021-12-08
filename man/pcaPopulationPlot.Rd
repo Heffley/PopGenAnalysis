@@ -19,7 +19,6 @@ closely related certain species are related to each other
 \examples{
 pcaPopulationPlot(mtcars)
 
-}
-\references{
+
 
 }
