@@ -3,6 +3,9 @@ library(shiny)
 # Grolemund, G. (2015). Learn Shiny - Video Tutorials. URL:https://shiny.rstudio.com/tutorial/
 
 ui <- fluidPage(
+
+  # Create title header
+  titlePanel(tags$h1(tags$b("PopGenAnalysis:"),"View different plots for genetic Data")),
   sliderInput(inputId = "num",
               label = "Choose a number",
               value = 25, min = 1, max = 100),

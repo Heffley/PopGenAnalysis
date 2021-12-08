@@ -64,6 +64,14 @@ uses functions from *lattice* *pegas* *adegenet* and *dplyr*. The
 *pcaPopulationPlot* uses functions from *ggbiplot*. The
 *provestiDistDendo* uses functions from *poppr* and *ape*.
 
+## Tutorials
+
+For tutorials and plot interpretation, refer to the vignette:
+
+``` r
+browseVignettes("EpiGPlot")
+```
+
 ## References
 
 Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021).
@@ -82,8 +90,8 @@ Kamvar ZN, Tabima JF, Grünwald NJ. (2014) Poppr: an R package for
 genetic analysis of populations with clonal, partially clonal, and/or
 sexual reproduction. PeerJ 2:e281. doi: 10.7717/peerj.281
 
-Kamvar ZN, Brooks JC and Grünwald NJ (2015) Novel R tools for analysis
-of genome-wide population genetic data with emphasis on clonality.
+Kamvar ZN, Brooks JC and Grünwald NJ (2015) *Novel R tools for analysis
+of genome-wide population genetic data with emphasis on clonality*.
 Front. Genet. 6:208. doi: 10.3389/fgene.2015.00208
 
 Paradis E. & Schliep K. 2019. ape 5.0: an environment for modern
@@ -92,8 +100,8 @@ phylogenetics and evolutionary analyses in R. Bioinformatics 35: 526-528
 Paradis E. 2010. pegas: an R package for population genetics with an
 integrated-modular approach. Bioinformatics 26: 419-420.
 
-Sarkar, Deepayan (2008) Lattice: Multivariate Data Visualization with R.
-Springer, New York. ISBN 978-0-387-75968-5
+Sarkar, Deepayan (2008) *Lattice: Multivariate Data Visualization with
+R*. Springer, New York. ISBN 978-0-387-75968-5
 
 Vincent Q. Vu (2011). ggbiplot: A ggplot2 based biplot. R package
 version 0.55. <http://github.com/vqv/ggbiplot>
