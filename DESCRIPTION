@@ -22,7 +22,8 @@ Imports:
     pegas, 
     ape, 
     poppr, 
-    stats
+    stats,
+    shiny
 Remotes: github::tidyverse/ggplot2
 Suggests: 
     testthat (>= 3.0.0),
